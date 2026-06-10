@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Anime Review Sentiment Intelligence Platform"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+]
