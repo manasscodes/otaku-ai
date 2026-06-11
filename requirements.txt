@@ -694,7 +694,9 @@ mistune==3.2.1 \
 narwhals==2.22.1 \
     --hash=sha256:60567d774edf77db53906f89d9fbd164e66e56d66d388e1e6990f17ac33cfb53 \
     --hash=sha256:d62920805a0a43b7ff8b54b0c0d3142d796f8a9301836ada37e573d6a33cbcd9
-    # via scikit-learn
+    # via
+    #   plotly
+    #   scikit-learn
 nbclient==0.11.0 \
     --hash=sha256:04a134a5b087f2c5887f228aca155db50169b8cd9334dee6942c8e927e56081a \
     --hash=sha256:ef7fa0d59d6e1d41103933d8a445a18d5de860ca6b613b87b8574accdb3c2895
@@ -804,6 +806,7 @@ packaging==26.2 \
     #   jupyterlab-server
     #   matplotlib
     #   nbconvert
+    #   plotly
 pandas==3.0.3 \
     --hash=sha256:0383c72c75cdcca61a9e116e611143902dbfd08bff356829c2f6d1cf40a9ca8c \
     --hash=sha256:08d789b41f87e0905880e293cedf6197ce71fe67cc081358b1e148a491b9bd13 \
@@ -928,6 +931,10 @@ platformdirs==4.10.0 \
     --hash=sha256:31e761a6a0ca04faf7353ea759bdba55652be214725111e5aac52dfa29d4bef7 \
     --hash=sha256:fb516cdb12eb0d857d0cd85a7c57cea4d060bee4578d6cf5a14dfdf8cbf8784a
     # via jupyter-core
+plotly==6.8.0 \
+    --hash=sha256:13c5c4a0f70b74cab1913eda0de49b826df5931708eb6f9c3010040614700ec8 \
+    --hash=sha256:e088e7ddc68d4f70e3d66659224727a45296d71d2b8284181862d3d8f1f0d88f
+    # via otaku-ai
 prometheus-client==0.25.0 \
     --hash=sha256:5e373b75c31afb3c86f1a52fa1ad470c9aace18082d39ec0d2f918d11cc9ba28 \
     --hash=sha256:d5aec89e349a6ec230805d0df882f3807f74fd6c1a2fa86864e3c2279059fed1
